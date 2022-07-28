@@ -24,7 +24,7 @@
     <!-- .................Header section start .............................-->
     <header>
       <!--................ Navbar start ....................................-->
-      <section class="container">
+      <section class="container" id="home">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid my-4">
             <a class="navbar-brand me-5 fw-bold fs-1 text-dark" href="#"
@@ -44,18 +44,18 @@
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link dark-3 me-4" aria-current="page" href="#"
+                  <a class="nav-link dark-3 me-4" aria-current="page" href="#home"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link dark-3 me-4" href="#">Courses</a>
+                  <a class="nav-link dark-3 me-4" href="#Courses">Courses</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link dark-3 me-4" href="#">Deals</a>
+                  <a class="nav-link dark-3 me-4" href="#Deals">Deals</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link dark-3 me-4" href="#">Success</a>
+                  <a class="nav-link dark-3 me-4" href="#Success">Success</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link dark-3 me-4" href="#">About</a>
@@ -74,73 +74,67 @@
       <!--................ Banner section start ............................-->
       <section class="container">
         <div
-          id="carouselExampleControls"
+          id="carouselExampleCaptions"
           class="carousel slide"
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner rounded-3">
+          <div class="carousel-inner rounded">
             <div class="carousel-item active">
               <img
-                src="images/cover/cover-1.png"
+                src="./images/cover/cover-1.png"
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption d-md-block header-title mb-5">
-                <h2 class="" >
-                  Get Started Digital <br />
-                  Learning
-                </h2>
-                <p style="color: #F4F4F4;">
-                  It is a long established fact that a reader will be distracted
-                  by the readable <br />
-                  content of a page when looking at its layout.
+              <div class="carousel-caption">
+                <h5 class="">Get Started Digital Learning</h5>
+                <p class="">
+                  When you partner with Digital Learning, you join a group of
+                  practitioners who are passionate about digital learning, student
+                  success and building a collaborative relationship with our
+                  faculty and partners across campus.
                 </p>
-                <button class="btn btn-primary px-4 py-2">Get Started</button>
+                <button class="btn btn-primary fw-semibold py-2 px-4">Get started</button>
               </div>
             </div>
             <div class="carousel-item">
               <img
-                src="images/cover/cover-2.jpg"
+                src="./images/cover/cover-2 - Copy.jpg"
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption d-md-block header-title mb-5">
-                <h2 class="" >
-                  Get Started Digital <br />
-                  Learning
-                </h2>
-                <p style="color: #F4F4F4;">
-                  It is a long established fact that a reader will be distracted
-                  by the readable <br />
-                  content of a page when looking at its layout.
+              <div class="carousel-caption">
+                <h5>Get Started Digital Learning</h5>
+                <p>
+                  When you partner with Digital Learning, you join a group of
+                  practitioners who are passionate about digital learning, student
+                  success and building a collaborative relationship with our
+                  faculty and partners across campus.
                 </p>
-                <button class="btn btn-primary px-4 py-2">Get Started</button>
+                <button class="btn btn-primary fw-semibold py-2 px-4">Get started</button>
               </div>
             </div>
             <div class="carousel-item">
               <img
-                src="images/cover/cover-3.jpg"
+                src="./images/cover/cover-3 - Copy.jpg"
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption d-md-block header-title mb-5">
-                <h2 class="" style="font-size: 65px; font-weight: 600">
-                  Get Started Digital <br />
-                  Learning
-                </h2>
-                <p style="color: #F4F4F4;">
-                  It is a long established fact that a reader will be distracted
-                  by the readable <br />
-                  content of a page when looking at its layout.
+              <div class="carousel-caption">
+                <h5>Get Started Digital Learning</h5>
+                <p>
+                  When you partner with Digital Learning, you join a group of
+                  practitioners who are passionate about digital learning, student
+                  success and building a collaborative relationship with our
+                  faculty and partners across campus.
                 </p>
-                <button class="btn btn-primary px-4 py-2">Get Started</button>
+                <button class="btn btn-primary fw-semibold py-2 px-4">Get started</button>
               </div>
             </div>
           </div>
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleControls"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -149,7 +143,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleControls"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -161,12 +155,12 @@
     </header>
     <!-- ...................Header section end ............................-->
     <!-- ...................Course section start ..........................-->
-    <section class="container">
+    <section class="container gapbox" id="Courses">
       <h1 class="text-center mt-5 fw-semibold">
         Discover Our Popular <br />
         Courses
       </h1>
-      <p class="text-center">
+      <p class="text-center" style="color: #777777;">
         It is a long established fact that a reader will be distracted by the
         readable <br />
         content of a page when looking at its layout
@@ -178,7 +172,7 @@
               <div class="col-md-4 col-12">
                 <img
                   src="images/course/course-1.png"
-                  class="img-fluid rounded-start"
+                  class="img-fluid w-100 rounded-start "
                   alt="..."
                 />
               </div>
@@ -203,7 +197,7 @@
               <div class="col-md-4">
                 <img
                   src="images/course/course-2.png"
-                  class="img-fluid rounded-start"
+                  class="img-fluid w-100 rounded-start"
                   alt="..."
                 />
               </div>
@@ -228,7 +222,7 @@
               <div class="col-md-4">
                 <img
                   src="images/course/course-3.png"
-                  class="img-fluid rounded-start"
+                  class="img-fluid w-100 rounded-start"
                   alt="..."
                 />
               </div>
@@ -253,7 +247,7 @@
               <div class="col-md-4">
                 <img
                   src="images/course/course-4.png"
-                  class="img-fluid rounded-start"
+                  class="img-fluid w-100 rounded-start"
                   alt="..."
                 />
               </div>
@@ -278,7 +272,7 @@
               <div class="col-md-4">
                 <img
                   src="images/course/course-5.png"
-                  class="img-fluid rounded-start"
+                  class="img-fluid w-100 rounded-start"
                   alt="..."
                 />
               </div>
@@ -303,7 +297,7 @@
               <div class="col-md-4">
                 <img
                   src="images/course/course-6.png"
-                  class="img-fluid rounded-start"
+                  class="img-fluid w-100 rounded-start"
                   alt="..."
                 />
               </div>
@@ -329,16 +323,15 @@
     </section>
     <!-- ...................Course section end ............................-->
     <!-- ...................Explore section start......................... -->
-    <section class="container">
+    <section class="container gapbox">
       <div class="card mb-3 mt-5 border-0">
         <div class="row g-0">
           <div class="col-md-5">
             <img  src="./images/working.png" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-7  d-flex align-items-center justify-content-center lh-lg" style="background-color: #F4FAFD;">
-            <div class="card-body ms-4">
-              <h2 class="card-title fw-semibold">Explore The <br> elearning
-                Institute</h2>
+            <div class="card-body ms-4 card-box">
+              <h2 class="card-title fw-semibold">Explore The learning <br> Institute</h2>
               <p class="card-text">Explore The elearning
                 Institute
                 There are many variations of passages of Lorem Ipsum available, but the
@@ -351,7 +344,7 @@
                 generators on the Internet tend to repeat predefined.</p>
                 <div class="d-flex">
                   <div class="me-5">
-                    <h1 class="fw-semibold">
+                    <h1 class="fw-semibold card-box">
                       3.2k+
                     </h1>
                     <p>Online Courses</p>
@@ -381,18 +374,18 @@
     </section>
     <!-- ...................Explore section end......................... -->
     <!-- ...................Register Now section start -->
-    <section class="container p-4">
+    <section class="container p-4 gapbox" id="Deals">
       <!-- .................Button trigger modal ..........................-->
-      <div class="row  bg-primary rounded" style=" height: 200px;">
-        <div class="d-flex align-items-center justify-content-center" >
+      <div class="row  bg-primary rounded" style=" height: 250px;">
+        <div class="d-flex align-items-center justify-content-center join" >
           <div class="col-lg-6 col-md-12">
-            <div class= "" style="margin-left: 80px;">
+            <div class= "text-center" >
               <h1 class="text-white">Ready to join?</h1>
               <p class="text-white">Register and get connected!</p>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12">
-            <button type="button" class="btn btn-light text-primary py-2 px-4 fw-semibold" style="margin-left: 300px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="col-lg-6 col-md-12 text-center">
+            <button type="button" class="btn btn-light text-primary py-2 px-4 fw-semibold "  data-bs-toggle="modal" data-bs-target="#exampleModal">
               Register Now
             </button>
           </div>
@@ -436,12 +429,13 @@
     </section>
     <!-- ...................Register Now section end -->
     <!-- ...................Student section start -->
-    <section class="container">
+    <section class="container gapbox" id="Success">
       <h1 class="fw-semibold mb-5 mt-5">Meet Our Successfull
         Students</h1>
-        <p class="mb-5">Your story is unique. That’s why we work closely with you to understand your particular interests, needs, and aspirations. Read on for stories of real students who know this first-hand, and get inspired to create your own student success story!</p>
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-12">
+        <p class="mb-5" style="color: #777777; font-size: 14px;">It is a long established fact that a reader will be distracted by the
+          readable <br> content of a page when looking at its layout.</p>
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6 col-12">
           <div class="card border">
             <img class="" src="./images/student/student-1.png" alt="">
             <div class="ms-4 mt-3">
@@ -450,7 +444,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-12">
+        <div class="col-lg-3 col-md-6 col-12">
           <div class="card border">
             <img class="" src="./images/student/student-2.png" alt="">
             <div class="ms-4 mt-3">
@@ -459,7 +453,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-12">
+        <div class="col-lg-3 col-md-6 col-12">
           <div class="card border">
             <img class="" src="./images/student/student-3.png" alt="">
             <div class="ms-4 mt-3">
@@ -468,7 +462,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-12">
+        <div class="col-lg-3 col-md-6 col-12">
           <div class="card border">
             <img class="" src="./images/student/student-4.png" alt="">
             <div class="ms-4 mt-3">
@@ -479,15 +473,15 @@
         </div>
       </div>
       <div class="text-center mt-4">
-        <button class="btn btn-primary py-2 px-3 fw-semibold">View All</button>
+        <button class="btn btn-primary py-2 px-3 fw-semibold hide-class">View All</button>
       </div>
     </section>
-    <!-- ...................Student section end -->
-    <!--                    Feedback section start -->
-    <section class="container mb-5">
+    <!-- ...................Student section end ....................................-->
+    <!-- ...................Feedback section start .................................-->
+    <section class="container mb-5 gapbox">
       <div class="text-center mt-5">
         <h1 class="fw-semibold">Some Students Feedback</h1>
-      <p>It is a long established fact that a reader will be distracted by the readable <br>
+      <p style="color: #777777;">It is a long established fact that a reader will be distracted by the readable <br>
         content of a page when looking at its layout.</p>
       </div>
       <div class="row justify-content-center gap-5">
@@ -538,13 +532,16 @@
             </div>
         </div>
       </div>
+      <div class="text-center mt-4">
+        <button class="btn btn-primary py-2 px-3">View All</button>
+      </div>
     </section>
-    <!--                    Feedback section end -->
+    <!--....................Feedback section end ....................................-->
     <!-- .................Frequently Asked Questions section start.................... -->
-    <section class="container ">
+    <section class="container gapbox">
       <div class="text-center">
         <h1 class="fw-semibold mb-4">Frequently Asked Questions</h1>
-      <p class="mb-5">It is a long established fact that a reader will be distracted by the readable <br>
+      <p class="mb-5" style="color: #777777;">It is a long established fact that a reader will be distracted by the readable <br>
         content of a page when looking at its layout.</p>
       </div>
       <div class="d-flex align-items-center justify-content-center">
@@ -587,12 +584,12 @@
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 <h5 class="fw-semibold">What is a semantic tag?</h5>
               </button>
             </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour-" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages
               </div>
@@ -603,7 +600,7 @@
     </section>
     <!-- .................Frequently Asked Questions section end.................... ..-->
     <!-- .................Company section start........................................ -->
-    <section class="container mb-5 d-none d-lg-block  d-none d-sm-block d-sm-none d-md-block d-md-none .d-lg-block">
+    <section class="container mb-5 d-none d-lg-block  d-none d-sm-block d-sm-none d-md-block d-md-none .d-lg-block gapbox">
       <h1 class="text-center mt-5 mb-4 fw-semibold">Trusted by over 800+ companies</h1>
       <div class="row d-flex align-items-center justify-content-center">
         <div class="col-lg 2" >
@@ -630,7 +627,7 @@
     </section>
     <!-- .................Company section end........................................ ..-->
     <!-- .........................Footer section start................................. -->
-    <section class="" style="width:100%; height: 350px; background-color: 
+    <section class="gapbox" style="width:100%; height: 350px; background-color: 
     #161616;">
       <div class="d-flex align-items-center justify-content-center text-center">
         <div class="" style="margin-top: 100px;">
