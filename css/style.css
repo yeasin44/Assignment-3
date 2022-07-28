@@ -4,13 +4,13 @@ body {
 .dark-3 {
   color: #777777;
 }
-.carousel-item {
+/* .carousel-item {
   height: 100vh;
   min-height: 300px;
   background: no-repeat center scroll;
   -webkit-background-size: cover;
   background-size: cover;
-}
+} */
 .carousel-item::before {
   content: "";
   display: block;
